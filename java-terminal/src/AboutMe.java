@@ -18,13 +18,14 @@ public class AboutMe {
         System.out.println("Digite sua altura");
         double altura = scanner.nextDouble();
 
-        // imprimindo o dados obtidos pelo usuário
         /*
          * String nome = args[0];
          * String sobrenome = args[1];
          * int idade = Integer.valueOf(args[2]);
          * double altura = Double.valueOf(args[3]);
          */
+
+        // imprimindo o dados obtidos pelo usuário
         System.out.println("Ola, me chamo " + nome + " " + sobrenome);
         System.out.println("Tenho " + idade + " anos ");
         System.out.println("Minha altura é " + altura + " cm ");
